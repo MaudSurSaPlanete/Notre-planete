@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Maud sur sa planète | Articles sur l’environnement, la nature et l’écologie</title>
-  <meta name="description" content="Découvrez des articles clairs et engagés sur l’environnement et l'écologie" />
+  <meta name="description" content="Découvrez des articles clairs et engagés sur l’environnement, la nature, l’écologie, les pesticides, les engrais et notre rapport au vivant." />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Maud" />
 
   <link rel="canonical" href="https://maudsursaplanete.github.io/Notre-planete/" />
 
-  <!-- Open Graph (partage réseaux sociaux) -->
   <meta property="og:title" content="Maud sur sa planète" />
   <meta property="og:description" content="Articles sur l’environnement, la nature et l’écologie." />
   <meta property="og:type" content="website" />
@@ -23,88 +22,116 @@
 
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="overlay">
-      <h1>Maud sur sa planète</h1>
-      <p>
-        Un espace pour lire mes articles sur l’écologie, l’environnement
-        et notre manière d’habiter le monde.
-      </p>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="site-brand">
+        <span class="brand-mark">✦</span>
+        <span class="brand-text">Maud sur sa planète</span>
+      </a>
+
+      <nav class="site-nav">
+        <a href="index.html">Accueil</a>
+        <a href="#articles">Articles</a>
+        <a href="apropos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <!-- CONTENU -->
+  <header class="hero">
+    <div class="overlay">
+      <p class="hero-kicker">Regards sur le vivant</p>
+      <h1>Maud sur sa planète</h1>
+      <p>
+        Un espace éditorial consacré à l’écologie, à la nature et à notre manière
+        d’habiter le monde avec plus de conscience.
+      </p>
+      <a href="#articles" class="btn hero-btn">Découvrir les articles</a>
+    </div>
+  </header>
+
   <main class="home">
 
-    <!-- INTRO -->
     <section class="intro">
-      <h2>Mes articles</h2>
+      <h2>Explorer, comprendre, questionner</h2>
       <p>
-        Retrouvez ici mes réflexions et analyses sur l’environnement, la nature,
-        les pesticides, les engrais et notre rapport au vivant.
+        À travers ces articles, je propose des réflexions sur les grands enjeux
+        environnementaux : pollution, rapport au vivant, équilibre des écosystèmes
+        et place de l’être humain dans la nature.
       </p>
     </section>
 
-    <!-- ARTICLES -->
-    <section class="articles-grid">
+    <section class="articles-grid" id="articles">
 
-      <div class="article-card">
-        <img src="images/mafia.jpg" alt="Mafia et pollution en Campanie" />
+      <article class="article-card">
+        <img src="images/pesticide-engrais.png" alt="Pesticides et engrais" class="card-image" />
         <div class="article-card-content">
-          <h3>Mafia à Campanie</h3>
-          <p>
-            Un article sur la mafia, les déchets toxiques et leurs conséquences environnementales.
-          </p>
-          <a href="articles/mafia-a-Campanie.html">Lire l’article</a>
-        </div>
-      </div>
-
-      <div class="article-card">
-        <img src="images/cohabitation-nature.png" alt="Co-habiter avec la nature" />
-        <div class="article-card-content">
-          <h3>Co-habiter avec la nature</h3>
-          <p>
-            Une réflexion sur l’équilibre entre l’être humain et le vivant.
-          </p>
-          <a href="articles/co-habiter-avec-la-nature.html">Lire l’article</a>
-        </div>
-      </div>
-
-      <div class="article-card">
-        <img src="images/domination-nature.jpg" alt="Domination de la nature" />
-        <div class="article-card-content">
-          <h3>La domination de la nature</h3>
-          <p>
-            Une analyse de la manière dont l’humain transforme et exploite son environnement.
-          </p>
-          <a href="articles/la-domination-de-la-nature.html">Lire l’article</a>
-        </div>
-      </div>
-
-      <div class="article-card">
-        <img src="images/pesticide-engrais.png" alt="Pesticides et engrais" />
-        <div class="article-card-content">
+          <p class="card-tag">Environnement</p>
           <h3>Pesticides et engrais</h3>
           <p>
-            Une comparaison des impacts environnementaux des pesticides et des engrais.
+            Une réflexion sur leurs effets respectifs sur l’environnement, la biodiversité
+            et la santé humaine.
           </p>
-          <a href="articles/pesticide-et-engrais.html">Lire l’article</a>
+          <a href="articles/pesticide-et-engrais.html" class="btn">Lire l’article</a>
         </div>
-      </div>
+      </article>
 
-      <div class="article-card">
+      <article class="article-card">
+        <img src="images/cohabitation-nature.png" alt="Co-habiter avec la nature" class="card-image" />
         <div class="article-card-content">
+          <p class="card-tag">Nature</p>
+          <h3>Co-habiter avec la nature</h3>
+          <p>
+            Un article sur l’équilibre entre l’être humain et le vivant, et sur les
+            chemins possibles d’une coexistence plus juste.
+          </p>
+          <a href="articles/co-habiter-avec-la-nature.html" class="btn">Lire l’article</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <img src="images/domination-nature.jpg" alt="La domination de la nature" class="card-image" />
+        <div class="article-card-content">
+          <p class="card-tag">Réflexion</p>
+          <h3>La domination de la nature</h3>
+          <p>
+            Une analyse de la manière dont l’humain transforme, exploite et domine
+            son environnement.
+          </p>
+          <a href="articles/la-domination-de-la-nature.html" class="btn">Lire l’article</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <img src="images/mafia.jpg" alt="Mafia à Campanie" class="card-image" />
+        <div class="article-card-content">
+          <p class="card-tag">Société & écologie</p>
+          <h3>Mafia à Campanie</h3>
+          <p>
+            Un article sur la mafia, les déchets toxiques et leurs conséquences
+            environnementales.
+          </p>
+          <a href="articles/mafia-a-Campanie.html" class="btn">Lire l’article</a>
+        </div>
+      </article>
+
+      <article class="article-card article-card-soon">
+        <div class="article-card-content">
+          <p class="card-tag">Bientôt</p>
           <h3>Nouvel article à venir</h3>
           <p>
-            Un nouvel article est en préparation. Reste connecté pour découvrir la suite.
+            Un nouvel article est en préparation. 
           </p>
         </div>
-      </div>
+      </article>
 
     </section>
 
   </main>
+
+  <footer>
+    <p>© 2026 — Maud sur sa planète</p>
+  </footer>
 
 </body>
 </html>
