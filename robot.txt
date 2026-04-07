@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maudsursaplanete.github.io/Notre-planete/sitemap.xml
